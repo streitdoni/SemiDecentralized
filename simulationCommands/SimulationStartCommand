@@ -1,0 +1,2 @@
+./UtilizationEvaluation_dbg -m -n .:../Framworks/inetmanet-3.x/examples:../Framworks/inetmanet-3.x/showcases:../Framworks/inetmanet-3.x/src:../Framworks/inetmanet-3.x/tutorials --image-path=../Framworks/inetmanet-3.x/images -l ../Framworks/inetmanet-3.x/src/INET omnetpp.ini -u Cmdenv -c AODVNetwork -r 0
+

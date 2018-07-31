@@ -1,0 +1,28 @@
+<config>
+  <interface hosts="Network.host[0]" names="wlan0" address="20.0.0.1" netmask="255.255.255.0"/>
+  <interface hosts="Network.host[1]" names="wlan0" address="20.0.0.2" netmask="255.255.255.0"/>
+  <interface hosts="Network.host[2]" names="wlan0" address="20.0.0.3" netmask="255.255.255.0"/>
+  <interface hosts="Network.host[3]" names="wlan0" address="20.0.0.4" netmask="255.255.255.0"/>
+  <interface hosts="Network.host[4]" names="wlan0" address="20.0.0.5" netmask="255.255.255.0"/>
+  <interface hosts="Network.host[5]" names="wlan0" address="20.0.0.6" netmask="255.255.255.0"/>
+  <interface hosts="Network.host[6]" names="wlan0" address="20.0.0.7" netmask="255.255.255.0"/>
+  <interface hosts="Network.host[7]" names="wlan0" address="20.0.0.8" netmask="255.255.255.0"/>
+
+  <route hosts="Network.host[7]" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.7"  />
+  <route hosts="Network.host[6]" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.6"  />
+  <route hosts="Network.host[5]" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.1"  /> 
+
+  <route hosts="Network.host[0]" destination="20.0.0.5" netmask="255.255.255.255" gateway="20.0.0.2" />
+  <route hosts="Network.host[1]" destination="20.0.0.5" netmask="255.255.255.255" gateway="20.0.0.3" />
+  <route hosts="Network.host[2]" destination="20.0.0.5" netmask="255.255.255.255" gateway="20.0.0.4" />
+  <route hosts="Network.host[3]" destination="20.0.0.5" netmask="255.255.255.255" gateway="20.0.0.5" />
+  
+  <route hosts="Network.host[0]" destination="20.0.0.2" netmask="255.255.255.255" gateway="20.0.0.2" />
+  <route hosts="Network.host[1]" destination="20.0.0.3" netmask="255.255.255.255" gateway="20.0.0.3" />
+  
+  <route hosts="Network.host[4]" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.4" />  
+  <route hosts="Network.host[3]" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.3" />  
+  <route hosts="Network.host[2]" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.2" />
+  <route hosts="Network.host[1]" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.1" />   
+</config>
+

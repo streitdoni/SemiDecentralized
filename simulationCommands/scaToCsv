@@ -1,0 +1,1 @@
+/home/klement/Development/omnetpp-5.1.1/bin/scavetool scalar -F csv -O result.csv *.sca
